@@ -21,7 +21,7 @@ fig = plt.figure()
 #ax1.axes.get_xaxis().set_visible(False)
 
 #results = np.genfromtxt('../ode-solver/particle.csv', delimiter=',', skip_header=8)
-results = np.genfromtxt('particle'+sys.argv[1]+'.csv', delimiter=',', skip_header=8)
+results = np.genfromtxt('sims/particle'+sys.argv[1]+'.csv', delimiter=',', skip_header=8)
 
 x = results[:,2]
 y = results[:,3]
